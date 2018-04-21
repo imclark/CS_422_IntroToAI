@@ -16,7 +16,6 @@
 
 "setup for answer-3"
 (setq y '((1 2) (3 4) (5 6) (7 8) (9 10)))
-(setq triangle-list ( answer-2 y))
 
 ( answer-3 triangle-list)
 "output > 18"

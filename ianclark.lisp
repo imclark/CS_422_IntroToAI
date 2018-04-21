@@ -12,5 +12,8 @@
 (defun answer-3 (E)
     "setup the return value, iterate through the list and sum the resulting areas from answer 1 then return the sum"
     (setq ans 0)
-    (loop for x in E collect (setq ans (+ ans ( answer-1 x))))
+    (setq S ( answer-2 E))
+    (loop for x in S collect (setq ans (+ ans ( answer-1 x))))
     (return-from answer-3 ans))
+
+(defun answer-4 (R S))
