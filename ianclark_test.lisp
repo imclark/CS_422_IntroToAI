@@ -19,3 +19,18 @@
 
 ( answer-3 triangle-list)
 "output > 18"
+
+"setup for answer-4"
+(setq list1 '(1 2 3))
+
+(setq list2 '((1 2) (1 3)))
+
+( answer-4 list1 list2)
+"output >T"
+
+(setq list1 '(1 2 -3))
+
+(setq list2 '((1 2) (1 3)))
+
+( answer-4 list1 list2)
+"output >NIL"
